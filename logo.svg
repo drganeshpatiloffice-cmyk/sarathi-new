@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">SARATHI VISION Logo</title>
+  <desc id="desc">Circular political consulting logo with eye, compass rose, growth arrow, and outer wheel structure in navy and slate blue.</desc>
+  <defs>
+    <linearGradient id="ringGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B2E57"/>
+      <stop offset="100%" stop-color="#335F8A"/>
+    </linearGradient>
+    <linearGradient id="symbolGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B2E57"/>
+      <stop offset="100%" stop-color="#244C73"/>
+    </linearGradient>
+    <style>
+      .text { font-family: "Segoe UI", "Arial", sans-serif; font-weight: 800; letter-spacing: 2.2px; }
+    </style>
+  </defs>
+
+  <circle cx="256" cy="256" r="244" fill="#FFFFFF"/>
+  <circle cx="256" cy="256" r="248" fill="none" stroke="#0B2E57" stroke-width="2.5" opacity="0.85"/>
+  <circle cx="256" cy="256" r="232" fill="none" stroke="#335F8A" stroke-width="2" opacity="0.7"/>
+  <g transform="translate(256 256)" fill="#335F8A" opacity="0.9">
+    <rect x="-2.5" y="-255" width="5" height="12" rx="1.5"/>
+    <rect x="-2.5" y="-255" width="5" height="12" rx="1.5" transform="rotate(15)"/>
+    <rect x="-2.5" y="-255" width="5" height="12" rx="1.5" transform="rotate(30)"/>
+    <rect x="-2.5" y="-255" width="5" height="12" rx="1.5" transform="rotate(45)"/>
+    <rect x="-2.5" y="-255" width="5" height="12" rx="1.5" transform="rotate(60)"/>
+    <rect x="-2.5" y="-255" width="5" height="12" rx="1.5" transform="rotate(75)"/>
+    <rect x="-2.5" y="-255" width="5" height="12" rx="1.5" transform="rotate(90)"/>
+    <rect x="-2.5" y="-255" width="5" height="12" rx="1.5" transform="rotate(105)"/>
+    <rect x="-2.5" y="-255" width="5" height="12" rx="1.5" transform="rotate(120)"/>
+    <rect x="-2.5" y="-255" width="5" height="12" rx="1.5" transform="rotate(135)"/>
+    <rect x="-2.5" y="-255" width="5" height="12" rx="1.5" transform="rotate(150)"/>
+    <rect x="-2.5" y="-255" width="5" height="12" rx="1.5" transform="rotate(165)"/>
+    <rect x="-2.5" y="-255" width="5" height="12" rx="1.5" transform="rotate(180)"/>
+    <rect x="-2.5" y="-255" width="5" height="12" rx="1.5" transform="rotate(195)"/>
+    <rect x="-2.5" y="-255" width="5" height="12" rx="1.5" transform="rotate(210)"/>
+    <rect x="-2.5" y="-255" width="5" height="12" rx="1.5" transform="rotate(225)"/>
+    <rect x="-2.5" y="-255" width="5" height="12" rx="1.5" transform="rotate(240)"/>
+    <rect x="-2.5" y="-255" width="5" height="12" rx="1.5" transform="rotate(255)"/>
+    <rect x="-2.5" y="-255" width="5" height="12" rx="1.5" transform="rotate(270)"/>
+    <rect x="-2.5" y="-255" width="5" height="12" rx="1.5" transform="rotate(285)"/>
+    <rect x="-2.5" y="-255" width="5" height="12" rx="1.5" transform="rotate(300)"/>
+    <rect x="-2.5" y="-255" width="5" height="12" rx="1.5" transform="rotate(315)"/>
+    <rect x="-2.5" y="-255" width="5" height="12" rx="1.5" transform="rotate(330)"/>
+    <rect x="-2.5" y="-255" width="5" height="12" rx="1.5" transform="rotate(345)"/>
+  </g>
+  <circle cx="256" cy="256" r="238" fill="none" stroke="url(#ringGrad)" stroke-width="12"/>
+  <circle cx="256" cy="256" r="210" fill="none" stroke="#AFC3D8" stroke-width="2.5" opacity="0.9"/>
+
+  <g transform="translate(256 232)">
+    <polygon points="0,-122 12,-86 0,-98 -12,-86" fill="#335F8A"/>
+    <polygon points="122,0 86,12 98,0 86,-12" fill="#335F8A"/>
+    <polygon points="0,122 -12,86 0,98 12,86" fill="#335F8A"/>
+    <polygon points="-122,0 -86,-12 -98,0 -86,12" fill="#335F8A"/>
+
+    <polygon points="0,-98 8,-62 0,-72 -8,-62" fill="#6F8FAD"/>
+    <polygon points="98,0 62,8 72,0 62,-8" fill="#6F8FAD"/>
+    <polygon points="0,98 -8,62 0,72 8,62" fill="#6F8FAD"/>
+    <polygon points="-98,0 -62,-8 -72,0 -62,8" fill="#6F8FAD"/>
+  </g>
+
+  <g transform="translate(256 232)">
+    <path d="M-118 0 C-84 -44, -40 -60, 0 -60 C40 -60, 84 -44, 118 0 C84 44, 40 60, 0 60 C-40 60, -84 44, -118 0Z"
+          fill="none" stroke="url(#symbolGrad)" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <circle cx="0" cy="0" r="43" fill="none" stroke="#335F8A" stroke-width="4" opacity="0.95"/>
+    <circle cx="0" cy="0" r="35" fill="none" stroke="#0B2E57" stroke-width="2" opacity="0.85"/>
+    <g fill="#335F8A" opacity="0.9">
+      <rect x="-1.5" y="-43" width="3" height="8" rx="1"/>
+      <rect x="-1.5" y="-43" width="3" height="8" rx="1" transform="rotate(30)"/>
+      <rect x="-1.5" y="-43" width="3" height="8" rx="1" transform="rotate(60)"/>
+      <rect x="-1.5" y="-43" width="3" height="8" rx="1" transform="rotate(90)"/>
+      <rect x="-1.5" y="-43" width="3" height="8" rx="1" transform="rotate(120)"/>
+      <rect x="-1.5" y="-43" width="3" height="8" rx="1" transform="rotate(150)"/>
+      <rect x="-1.5" y="-43" width="3" height="8" rx="1" transform="rotate(180)"/>
+      <rect x="-1.5" y="-43" width="3" height="8" rx="1" transform="rotate(210)"/>
+      <rect x="-1.5" y="-43" width="3" height="8" rx="1" transform="rotate(240)"/>
+      <rect x="-1.5" y="-43" width="3" height="8" rx="1" transform="rotate(270)"/>
+      <rect x="-1.5" y="-43" width="3" height="8" rx="1" transform="rotate(300)"/>
+      <rect x="-1.5" y="-43" width="3" height="8" rx="1" transform="rotate(330)"/>
+    </g>
+
+    <circle cx="0" cy="0" r="24" fill="#0B2E57"/>
+    <circle cx="-8" cy="-8" r="7" fill="#FFFFFF" opacity="0.92"/>
+
+    <path d="M-28 26 L10 -10 L10 10 L50 -30 L74 -30 L30 14 L50 14 L12 52 Z"
+          fill="#335F8A"/>
+    <path d="M47 -42 L84 -42 L84 -5"
+          fill="none" stroke="#0B2E57" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <path d="M134 350 H378" stroke="#0B2E57" stroke-width="2" opacity="0.55"/>
+  <text x="256" y="398" text-anchor="middle" class="text" font-size="38" fill="#0B2E57">SARATHI VISION</text>
+</svg>

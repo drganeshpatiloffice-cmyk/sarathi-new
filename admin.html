@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin Dashboard | सारथी व्हिजन</title>
+  <meta name="description" content="Admin Dashboard - सारथी व्हिजन निवडणूक सेवा व्यवस्थापन प्लॅटफॉर्म." />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="lang.js" defer></script>
+</head>
+<body>
+  <div class="lang-bar" aria-label="Language options"><div class="container lang-wrap"><div class="lang-quick"><button class="lang-btn" type="button" data-lang="en">English</button><button class="lang-btn" type="button" data-lang="hi">हिंदी</button><button class="lang-btn" type="button" data-lang="mr">मराठी</button></div><div class="lang-all"><label class="lang-all-label" for="lang-all">All Indian Languages</label><select id="lang-all" class="lang-select" name="lang-all"><option value="mr">Marathi</option><option value="hi">Hindi</option><option value="en">English</option><option value="bn">Bengali</option><option value="ta">Tamil</option><option value="te">Telugu</option><option value="kn">Kannada</option><option value="ml">Malayalam</option><option value="gu">Gujarati</option><option value="pa">Punjabi</option><option value="or">Odia</option><option value="as">Assamese</option><option value="ur">Urdu</option><option value="sa">Sanskrit</option><option value="kok">Konkani</option><option value="mai">Maithili</option><option value="mni">Manipuri</option><option value="ne">Nepali</option><option value="bodo">Bodo</option><option value="san">Santali</option><option value="dog">Dogri</option><option value="ks">Kashmiri</option></select></div><p class="lang-note" id="lang-note">सध्या मुख्य मजकूर मराठीत उपलब्ध आहे.</p></div></div>
+
+  <header class="top-ticker" aria-label="ताज्या घडामोडी"><div class="ticker-track"><span>ताजे: सारथी व्हिजनतर्फे २०२६ निवडणूक तयारीसाठी जिल्हास्तरीय रणनीती कार्यशाळांची घोषणा.</span><span>•</span><span>अद्यतन: राजकीय संवाद व बूथ व्यवस्थापन प्रशिक्षणासाठी नोंदणी सुरू.</span><span>•</span><span>सूचना: प्रचार टूलकिट व धोरणात्मक माहितीपत्रके डाउनलोडसाठी उपलब्ध.</span><span>•</span></div></header>
+  <nav class="site-nav" aria-label="मुख्य नेव्हिगेशन">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html"><img class="site-logo" src="logo.svg" alt="Sarathi Vision Logo" /> <span>सारथी व्हिजन</span></a>
+      <ul class="nav-links">
+        <li><a href="about.html">आमच्याविषयी</a></li>
+        <li><a href="services.html">सेवा</a></li>
+        <li><a href="training.html">प्रशिक्षण</a></li>
+        <li><a href="careers.html">करिअर</a></li>
+        <li><a href="registration.html">नोंदणी</a></li>
+        <li><a href="downloads.html">डाउनलोड</a></li>
+        <li><a href="contact.html">संपर्क</a></li>
+        <li><a class="active" href="admin.html">Admin</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <section class="section section-alt">
+      <div class="container dashboard-head">
+        <h2>Admin Election Service Platform</h2>
+        <div class="dashboard-actions">
+          <p id="adminWelcome" class="payment-note">Welcome</p>
+          <button id="logoutBtn" class="btn" type="button">Logout</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container dashboard-grid">
+        <article class="card">
+          <h3>Campaign Service Queue</h3>
+          <p>नोंदणीकृत सेवा विनंत्या, प्राधान्यक्रम आणि जिल्हानिहाय अंमलबजावणी स्थिती.</p>
+          <p><strong>Active Requests:</strong> 148</p>
+        </article>
+        <article class="card">
+          <h3>War-Room Command</h3>
+          <p>रिअल-टाइम संदेश मॉनिटरिंग, विरोधी ट्रेंड विश्लेषण आणि निर्णय सूचनांची यादी.</p>
+          <p><strong>Live Alerts:</strong> 12</p>
+        </article>
+        <article class="card">
+          <h3>Training & Payment Control</h3>
+          <p>प्रशिक्षण नोंदणी, पेमेंट पुष्टीकरण आणि सीट अलॉटमेंट ट्रॅकिंग.</p>
+          <p><strong>Confirmed Seats:</strong> 786</p>
+        </article>
+        <article class="card">
+          <h3>Career Talent Pipeline</h3>
+          <p>CV सबमिशन, स्क्रिनिंग स्थिती आणि नियुक्तीसाठी प्रादेशिक प्रतिभा पूल.</p>
+          <p><strong>New CVs:</strong> 63</p>
+        </article>
+        <article class="card">
+          <h3>District Deployment</h3>
+          <p>36 जिल्ह्यांमधील फील्ड कोऑर्डिनेटर वितरण आणि ब्लॉक-स्तरीय उपस्थिती ट्रॅकिंग.</p>
+          <p><strong>Field Coordinators Online:</strong> 812</p>
+        </article>
+        <article class="card">
+          <h3>Reports & Downloads</h3>
+          <p>दैनिक MIS, सर्वेक्षण रिपोर्ट्स आणि नेतृत्व सादरीकरणासाठी निर्यात पर्याय.</p>
+          <a class="btn" href="downloads.html">Open Reports</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container"><p>© 2026 सारथी व्हिजन. सर्व हक्क राखीव.</p></div></footer>
+
+  <script>
+    (function () {
+      const role = localStorage.getItem("svRole");
+      const user = localStorage.getItem("svUser") || "Admin";
+      if (role !== "admin") {
+        window.location.href = "login.html";
+        return;
+      }
+
+      document.getElementById("adminWelcome").textContent = "Welcome, " + user;
+      document.getElementById("logoutBtn").addEventListener("click", function () {
+        localStorage.removeItem("svRole");
+        localStorage.removeItem("svUser");
+        window.location.href = "login.html";
+      });
+    })();
+  </script>
+</body>
+</html>

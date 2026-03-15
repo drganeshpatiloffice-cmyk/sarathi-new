@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login | सारथी व्हिजन</title>
+  <meta name="description" content="User आणि Admin लॉगिन - सारथी व्हिजन सेवा प्लॅटफॉर्म प्रवेश." />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="lang.js" defer></script>
+</head>
+<body>
+  <div class="lang-bar" aria-label="Language options"><div class="container lang-wrap"><div class="lang-quick"><button class="lang-btn" type="button" data-lang="en">English</button><button class="lang-btn" type="button" data-lang="hi">हिंदी</button><button class="lang-btn" type="button" data-lang="mr">मराठी</button></div><div class="lang-all"><label class="lang-all-label" for="lang-all">All Indian Languages</label><select id="lang-all" class="lang-select" name="lang-all"><option value="mr">Marathi</option><option value="hi">Hindi</option><option value="en">English</option><option value="bn">Bengali</option><option value="ta">Tamil</option><option value="te">Telugu</option><option value="kn">Kannada</option><option value="ml">Malayalam</option><option value="gu">Gujarati</option><option value="pa">Punjabi</option><option value="or">Odia</option><option value="as">Assamese</option><option value="ur">Urdu</option><option value="sa">Sanskrit</option><option value="kok">Konkani</option><option value="mai">Maithili</option><option value="mni">Manipuri</option><option value="ne">Nepali</option><option value="bodo">Bodo</option><option value="san">Santali</option><option value="dog">Dogri</option><option value="ks">Kashmiri</option></select></div><p class="lang-note" id="lang-note">सध्या मुख्य मजकूर मराठीत उपलब्ध आहे.</p></div></div>
+
+  <header class="top-ticker" aria-label="ताज्या घडामोडी"><div class="ticker-track"><span>ताजे: सारथी व्हिजनतर्फे २०२६ निवडणूक तयारीसाठी जिल्हास्तरीय रणनीती कार्यशाळांची घोषणा.</span><span>•</span><span>अद्यतन: राजकीय संवाद व बूथ व्यवस्थापन प्रशिक्षणासाठी नोंदणी सुरू.</span><span>•</span><span>सूचना: प्रचार टूलकिट व धोरणात्मक माहितीपत्रके डाउनलोडसाठी उपलब्ध.</span><span>•</span></div></header>
+
+  <nav class="site-nav" aria-label="मुख्य नेव्हिगेशन">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html"><img class="site-logo" src="logo.svg" alt="Sarathi Vision Logo" /> <span>सारथी व्हिजन</span></a>
+      <ul class="nav-links">
+        <li><a href="about.html">आमच्याविषयी</a></li>
+        <li><a href="services.html">सेवा</a></li>
+        <li><a href="training.html">प्रशिक्षण</a></li>
+        <li><a href="careers.html">करिअर</a></li>
+        <li><a href="registration.html">नोंदणी</a></li>
+        <li><a href="downloads.html">डाउनलोड</a></li>
+        <li><a href="contact.html">संपर्क</a></li>
+        <li><a class="active" href="login.html">Login</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <section class="section">
+      <div class="container auth-wrap">
+        <div class="auth-intro">
+          <h2>Unified Election Service Platform</h2>
+          <p>एकाच प्लॅटफॉर्मवर User आणि Admin लॉगिनद्वारे सेवा व्यवस्थापन, ट्रॅकिंग आणि रिपोर्टिंग.</p>
+          <ul class="hero-points">
+            <li><i class="fa-solid fa-circle-check" aria-hidden="true"></i> User: सेवा विनंती, प्रशिक्षण, स्थिती ट्रॅकिंग</li>
+            <li><i class="fa-solid fa-circle-check" aria-hidden="true"></i> Admin: वॉर-रूम, टीम समन्वय, लीड मॉनिटरिंग</li>
+            <li><i class="fa-solid fa-circle-check" aria-hidden="true"></i> रणनीतिक निर्णयांसाठी रिअल-टाइम डॅशबोर्ड</li>
+          </ul>
+        </div>
+
+        <form id="roleLoginForm" class="lead-form auth-form" action="#" method="post" novalidate>
+          <label for="login-role">Login Role</label>
+          <select id="login-role" name="login-role" required>
+            <option value="">Role निवडा</option>
+            <option value="user">User</option>
+            <option value="admin">Admin</option>
+          </select>
+
+          <label for="login-id">User/Admin ID</label>
+          <input id="login-id" name="login-id" type="text" placeholder="उदा. user01 / admin01" required />
+
+          <label for="login-password">Password</label>
+          <input id="login-password" name="login-password" type="password" placeholder="पासवर्ड टाका" required />
+
+          <button class="btn" type="submit">Login to Platform</button>
+          <p id="loginStatus" class="payment-note">Demo credentials: admin01/admin@123 | user01/user@123</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container"><p>© 2026 सारथी व्हिजन. सर्व हक्क राखीव.</p></div></footer>
+
+  <script>
+    (function () {
+      const allowed = {
+        admin: { id: "admin01", pass: "admin@123" },
+        user: { id: "user01", pass: "user@123" }
+      };
+
+      const form = document.getElementById("roleLoginForm");
+      const status = document.getElementById("loginStatus");
+
+      form.addEventListener("submit", function (event) {
+        event.preventDefault();
+        if (!form.checkValidity()) {
+          form.reportValidity();
+          return;
+        }
+
+        const role = document.getElementById("login-role").value;
+        const id = document.getElementById("login-id").value.trim();
+        const pass = document.getElementById("login-password").value;
+        const valid = allowed[role] && allowed[role].id === id && allowed[role].pass === pass;
+
+        if (!valid) {
+          status.textContent = "अवैध क्रेडेन्शियल्स. कृपया योग्य Role, ID आणि Password वापरा.";
+          return;
+        }
+
+        localStorage.setItem("svRole", role);
+        localStorage.setItem("svUser", id);
+        status.textContent = "Login successful. Redirecting...";
+
+        setTimeout(function () {
+          window.location.href = role === "admin" ? "admin.html" : "user.html";
+        }, 350);
+      });
+    })();
+  </script>
+</body>
+</html>

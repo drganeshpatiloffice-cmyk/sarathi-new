@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>करिअर | सारथी व्हिजन</title>
+  <meta name="description" content="सारथी व्हिजन करिअर: प्रतिभावान व्यक्तींना संधी, CV सबमिशन आणि माहिती नोंदणी." />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="lang.js" defer></script>
+</head>
+<body>
+  <div class="lang-bar" aria-label="Language options"><div class="container lang-wrap"><div class="lang-quick"><button class="lang-btn" type="button" data-lang="en">English</button><button class="lang-btn" type="button" data-lang="hi">हिंदी</button><button class="lang-btn" type="button" data-lang="mr">मराठी</button></div><div class="lang-all"><label class="lang-all-label" for="lang-all">All Indian Languages</label><select id="lang-all" class="lang-select" name="lang-all"><option value="mr">Marathi</option><option value="hi">Hindi</option><option value="en">English</option><option value="bn">Bengali</option><option value="ta">Tamil</option><option value="te">Telugu</option><option value="kn">Kannada</option><option value="ml">Malayalam</option><option value="gu">Gujarati</option><option value="pa">Punjabi</option><option value="or">Odia</option><option value="as">Assamese</option><option value="ur">Urdu</option><option value="sa">Sanskrit</option><option value="kok">Konkani</option><option value="mai">Maithili</option><option value="mni">Manipuri</option><option value="ne">Nepali</option><option value="bodo">Bodo</option><option value="san">Santali</option><option value="dog">Dogri</option><option value="ks">Kashmiri</option></select></div><p class="lang-note" id="lang-note">सध्या मुख्य मजकूर मराठीत उपलब्ध आहे.</p></div></div>
+
+  <header class="top-ticker" aria-label="ताज्या घडामोडी"><div class="ticker-track"><span>ताजे: सारथी व्हिजनतर्फे २०२६ निवडणूक तयारीसाठी जिल्हास्तरीय रणनीती कार्यशाळांची घोषणा.</span><span>•</span><span>अद्यतन: राजकीय संवाद व बूथ व्यवस्थापन प्रशिक्षणासाठी नोंदणी सुरू.</span><span>•</span><span>सूचना: प्रचार टूलकिट व धोरणात्मक माहितीपत्रके डाउनलोडसाठी उपलब्ध.</span><span>•</span></div></header>
+  <nav class="site-nav" aria-label="मुख्य नेव्हिगेशन">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html"><img class="site-logo" src="logo.svg" alt="Sarathi Vision Logo" /> <span>सारथी व्हिजन</span></a>
+      <ul class="nav-links">
+        <li><a href="about.html">आमच्याविषयी</a></li>
+        <li><a href="services.html">सेवा</a></li>
+        <li><a href="training.html">प्रशिक्षण</a></li>
+        <li><a class="active" href="careers.html">करिअर</a></li>
+        <li><a href="registration.html">नोंदणी</a></li>
+        <li><a href="downloads.html">डाउनलोड</a></li>
+        <li><a href="contact.html">संपर्क</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <section class="section service-banner">
+      <div class="container service-banner-grid">
+        <div>
+          <p class="eyebrow">Join Sarathi Vision</p>
+          <h2>प्रतिभावान लोकांसाठी राजकीय करिअरच्या संधी</h2>
+          <p>ग्रामीण ते संसदीय पातळीवर काम करणाऱ्या रणनीतिक टीममध्ये सामील व्हा आणि निवडणूक परिवर्तनाचा भाग बना.</p>
+        </div>
+        <img src="assets/images/careers-banner.jpg" alt="सारथी व्हिजन टीममध्ये सामील होणारे तरुण" loading="lazy" />
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container">
+        <h2>करिअर क्षेत्रे</h2>
+        <div class="grid-cards">
+          <article class="card"><h3>Field Coordinators</h3><p>बूथ नेटवर्क, गाव-स्तरीय संपर्क आणि मतदार समन्वय व्यवस्थापन.</p></article>
+          <article class="card"><h3>Data & Survey Analysts</h3><p>सर्वेक्षण विश्लेषण, रिपोर्टिंग आणि निर्णयांसाठी डेटा इंटेलिजन्स.</p></article>
+          <article class="card"><h3>Communication Experts</h3><p>भाषण, मीडिया प्रतिसाद, सोशल मीडिया कंटेंट आणि संदेश रणनीती.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>CV व माहिती सबमिट करा</h2>
+        <form id="careerForm" class="lead-form smart-form" action="#" method="post" enctype="multipart/form-data" novalidate>
+          <div class="form-grid">
+            <div>
+              <label for="career-name">पूर्ण नाव</label>
+              <input id="career-name" name="career-name" type="text" required />
+            </div>
+            <div>
+              <label for="career-mobile">मोबाइल नंबर</label>
+              <input id="career-mobile" name="career-mobile" type="tel" pattern="[0-9]{10}" required />
+            </div>
+            <div>
+              <label for="career-email">ईमेल</label>
+              <input id="career-email" name="career-email" type="email" required />
+            </div>
+            <div>
+              <label for="career-role">आवडते पद</label>
+              <select id="career-role" name="career-role" required>
+                <option value="">पद निवडा</option>
+                <option value="field">Field Coordinator</option>
+                <option value="data">Data Analyst</option>
+                <option value="communication">Communication Specialist</option>
+                <option value="training">Training Associate</option>
+              </select>
+            </div>
+            <div>
+              <label for="career-jilha">जिल्हा</label>
+              <input id="career-jilha" name="career-jilha" type="text" required />
+            </div>
+            <div>
+              <label for="career-taluka">तालुका</label>
+              <input id="career-taluka" name="career-taluka" type="text" required />
+            </div>
+            <div class="full">
+              <label for="career-exp">अनुभव / कौशल्ये</label>
+              <textarea id="career-exp" name="career-exp" rows="4" placeholder="आपला अनुभव, कौशल्ये व निवडणूक कार्याचा तपशील"></textarea>
+            </div>
+            <div class="full">
+              <label for="career-cv">CV अपलोड करा (PDF/DOC)</label>
+              <input id="career-cv" name="career-cv" type="file" accept=".pdf,.doc,.docx" required />
+            </div>
+          </div>
+          <button class="btn" type="submit">Submit CV & Information</button>
+          <p id="careerStatus" class="payment-note">कृपया सर्व माहिती भरून CV अपलोड करा.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container"><p>© 2026 सारथी व्हिजन. सर्व हक्क राखीव.</p></div></footer>
+
+  <script>
+    (function () {
+      const form = document.getElementById("careerForm");
+      const status = document.getElementById("careerStatus");
+      form.addEventListener("submit", function (event) {
+        event.preventDefault();
+        if (!form.checkValidity()) {
+          form.reportValidity();
+          return;
+        }
+        status.textContent = "आपली माहिती आणि CV यशस्वीरीत्या सबमिट झाली आहे. आमची HR टीम लवकरच संपर्क करेल.";
+      });
+    })();
+  </script>
+</body>
+</html>
